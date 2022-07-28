@@ -4,6 +4,8 @@ import Main from "./Pages/Main";
 import TodoList from "./Pages/TodoList";
 import UseContextStudy from "./Pages/UseContext";
 import DarkPage from "./Pages/UseContext/DarkPage";
+import UseMemoStudy from "./Pages/UseMemo";
+import OtherMemo from "./Pages/UseMemo/OtherMemo";
 import UseRefStudy from "./Pages/UseRef";
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
                 <Route path="dark" element={<DarkPage />} />
                 <Route path="todo" element={<TodoList />} />
                 <Route path="useref" element={<UseRefStudy />} />
+                <Route path="usememo" element={<UseMemoStudy />} />
+                <Route path="usememo1" element={<OtherMemo />} />
             </Routes>
         </div>
     );
