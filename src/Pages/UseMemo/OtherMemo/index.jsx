@@ -24,7 +24,7 @@ const OtherMemo = () => {
             />
             <hr />
             <h2>어느 나라에 있어요?</h2>
-            <p>나라: {location}</p>
+            <p>나라: {location.country}</p>
             <button onClick={() => setIsKorea(!isKorea)}>비행기 타자</button>
         </div>
     );
