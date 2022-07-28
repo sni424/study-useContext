@@ -7,6 +7,8 @@ import UseContextStudy from "./Pages/UseContext";
 import DarkPage from "./Pages/UseContext/DarkPage";
 import UseMemoStudy from "./Pages/UseMemo";
 import OtherMemo from "./Pages/UseMemo/OtherMemo";
+import UseReducerStudy from "./Pages/UseReducer";
+import DeepReducer from "./Pages/UseReducer/Deep";
 import UseRefStudy from "./Pages/UseRef";
 
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
                 <Route path="usememo" element={<UseMemoStudy />} />
                 <Route path="usememo1" element={<OtherMemo />} />
                 <Route path="usecallback" element={<UseCallBackStudy />} />
+                <Route path="usereducer" element={<UseReducerStudy />} />
+                <Route path="usereducer1" element={<DeepReducer />} />
             </Routes>
         </div>
     );
