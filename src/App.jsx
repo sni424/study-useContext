@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Main from "./Pages/Main";
 import TodoList from "./Pages/TodoList";
+import UseCallBackStudy from "./Pages/UseCallback";
 import UseContextStudy from "./Pages/UseContext";
 import DarkPage from "./Pages/UseContext/DarkPage";
 import UseMemoStudy from "./Pages/UseMemo";
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="useref" element={<UseRefStudy />} />
                 <Route path="usememo" element={<UseMemoStudy />} />
                 <Route path="usememo1" element={<OtherMemo />} />
+                <Route path="usecallback" element={<UseCallBackStudy />} />
             </Routes>
         </div>
     );
