@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import Main from "./Pages/Main";
+import StyledComponent from "./Pages/StyledComponent";
 import TodoList from "./Pages/TodoList";
 import UseCallBackStudy from "./Pages/UseCallback";
 import UseContextStudy from "./Pages/UseContext";
@@ -25,6 +26,7 @@ const App = () => {
                 <Route path="usecallback" element={<UseCallBackStudy />} />
                 <Route path="usereducer" element={<UseReducerStudy />} />
                 <Route path="usereducer1" element={<DeepReducer />} />
+                <Route path="style" element={<StyledComponent />} />
             </Routes>
         </div>
     );
